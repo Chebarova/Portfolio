@@ -6,9 +6,10 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("img/eva2.png");
   background-repeat: no-repeat;
   background-position: top center;
+	
 }
 
 .container {
@@ -47,7 +48,7 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 120px;
 }
 
 .hero-image .container {
@@ -56,11 +57,16 @@ body {
 }
 
 .heading {
-  margin: 0 0 16px;
+  margin: 0 0 20px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 88px;
-  line-height: 96px;
+  line-height: 200px;
   font-weight: 400;
+	color:white;
+}
+.white {
+color: black;
+padding: 60px;
 }
 
 .hero-image p {
@@ -150,8 +156,9 @@ body {
 }
 
 .project-image {
-  margin: 0 0 24px;
+  margin: 0 0 10px;
   text-align: center;
+
 }
 
 .projects p {
